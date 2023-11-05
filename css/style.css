@@ -1,0 +1,93 @@
+/* ++ Reset styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* -- Reset styles */
+
+.container {
+  width: 100%;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.login-menu-wrapper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-menu {
+  display: flex;
+  flex-direction:column;
+  
+  
+  width: 200px;
+  height: 200px;
+  background-color: rgb(242, 255, 254);
+  border-radius: 15px;
+box-shadow: 4px 4px 2px 1px rgba(177, 177, 177, 0.2);
+border-style: outset;
+padding: 15px 15px 15px 15px;
+
+}
+
+.login-menu-name{
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.login-menu-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
