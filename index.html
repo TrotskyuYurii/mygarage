@@ -11,6 +11,15 @@
 <body>
 
     <header>
+        <div class="container header-menu">
+            <nav class="header-navigation">
+                <ul class="mob-menu-list">
+                    <li>Garage</li>
+                    <li>Car</li>
+                    <li>Company</li>
+                </ul>
+            </nav>
+        </div>  
 
     </header>
 
@@ -19,15 +28,15 @@
         <div class="login-menu">
             <p class="login-menu-name">Enter email and passsword</p>
             <form action="" class="login-menu-form">
-                <label for="footer-email" class="modal-label-email"><input type="email" name="login-email" id="login-email" placeholder="E-mail" class="form-input-email" /></label>
-                <label for="footer-pass"  class="modal-label-pass"> <input type="password" name="login-email" id="login-email" placeholder="Password" class="form-input-password" /></label>
-                <button type="button">login</button>
+                <label for="login-email" class="modal-label-email"><input required type="email" name="login-email" id="login-email" placeholder="E-mail" class="form-input-email" /></label>
+                <label for="login-email"  class="modal-label-pass"> <input required type="password" name="login-password" id="login-password" placeholder="Password" class="form-input-password" /></label>
+                <input type="submit" value="Submit">
             </form>
         </div>
     </div>
     <!-- -- login -->
 
-
+    <script type="module" src="/js/scripts.js" defer></script>
 </body>
 
 </html>

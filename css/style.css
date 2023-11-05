@@ -78,6 +78,11 @@ padding: 15px 15px 15px 15px;
     align-items: center;
 }
 
+.mob-menu-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 @media screen and (min-width: 768px) {
   .container {
     padding-right: 32px;
